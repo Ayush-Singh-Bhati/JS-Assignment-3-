@@ -1,25 +1,25 @@
 
 
-// getRandomColor=()=>{
-//     const letters = '012345678ABCDEF';
-//     let color = '#';
+getRandomColor=()=>{
+    const letters = '012345678ABCDEF';
+    let color = '#';
 
-//     for (i = 0; i<6; i++){
+    for (i = 0; i<6; i++){
 
-//         color += letters[Math.floor(Math.random() * 16)];
-//     }
-//     console.log('clicked')
-//     return color;
-// }
+        color += letters[Math.floor(Math.random() * 16)];
+    }
+    console.log('clicked')
+    return color;
+}
 
 
-// changeBackgroundColor=()=>{
+changeBackgroundColor=()=>{
 
-//     let randomcolor = getRandomColor();
-//     document.body.style.backgroundColor = randomcolor;
-// }
+    let randomcolor = getRandomColor();
+    document.body.style.backgroundColor = randomcolor;
+}
 
-// document.onclick = changeBackgroundColor;
+document.onclick = changeBackgroundColor;
 
 
 
